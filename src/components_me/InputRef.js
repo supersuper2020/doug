@@ -52,13 +52,10 @@ componentDidMount(){
 //===============
     render() {
         return (
-            <div><center>
-
-
+            <div className="input_ref">
 <button onClick={this.click_show.bind(this)}>Click me</button>
 
-<input value={this.state.inputValue} ref={this.input_ref} id="input_x" type="text"/>
-            </center>               
+<input value={this.state.inputValue} ref={this.input_ref} id="input_x" type="text"/>                        
             </div>
         )
     }

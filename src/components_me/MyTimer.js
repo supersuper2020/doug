@@ -21,7 +21,7 @@ class MyTimer extends Component {
 clear_timer(){ this.ct_xx =0;}
     //==========================
     render() {return (
-<div>
+<div className="my_timer_contain">
     <h2 className="timer_text">{this.ct_xx}</h2>
 <button onClick={this.my_timer.bind(this)}>Click me</button>
 <button onClick={this.clear_timer.bind(this)}>Clear Timer</button>
