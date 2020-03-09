@@ -1,0 +1,5 @@
+git remote add origin https://github.com/user/repo.git
+https://github.com/supersuper2020/doug
+git remote -v
+
+npm start
