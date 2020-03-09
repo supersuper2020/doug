@@ -11,6 +11,26 @@ constructor(props) {
 
 }
 
+/*
+git remote add origin https://github.com/user/repo.git
+https://github.com/supersuper2020/doug
+git remote -v
+
+https://superuser.com/questions/1064197/how-to-switch-git-user-at-terminal
+
+git config user.name
+git config user.email
+Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+Set your email address: git config --global user.email "MY_NAME@example.com"
+For Windows User:
+Follow Instructions:
+Control Panel >> User Account >> Credential Manager >> Windows Credential >> Generic Credential
+
+remove git credential.
+next time when you'll push repo it'll ask you for credential.
+
+*/
+
 
 componentDidMount(){
     this.input_ref.current.focus()
