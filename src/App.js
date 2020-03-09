@@ -28,7 +28,7 @@ class App extends Component {
   /**  <Hello name={this.state.name} />*/
 render() {return (
 <div>
-{/* <FixedToolBar/> */}
+<FixedToolBar/>
 <MyTimer/>
 <InputRef/>
 
